@@ -1,7 +1,8 @@
 import styles from "./App.module.css";
 import { Hero } from "./components/hero/hero";
 
-import { Navbar } from "./components/navbar/navbar";
+import { Navbar } from "./components/Navbar/Navbar";
+import { About } from "./components/about/about";
 
 
 function App() {
