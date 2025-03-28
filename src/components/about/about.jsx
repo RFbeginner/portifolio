@@ -7,34 +7,49 @@ import uiImg from '../../assets/about/uiIcon.png';
 
 const About = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="about">
       <h2 className={styles.title}>About</h2>
-      <div className={StyleSheet.content}>
-        <img src={aboutImg} alt="Me sitting with a laptop" />
-        <ul>
-          {/* Front-end developer */}
-          <li>
-          <img src={cursorImg} alt="Cursor Icon" />
-          <div>
-            <h3>Front Developer</h3>
-            <p>Im a frotn-end developer with experience in building responsive and optimized sites </p>
-          </div>
+      <div className={styles.content}>
+        <img
+          className={styles.aboutImage}
+          src={aboutImg}
+          alt="Me sitting with a laptop"
+        />
+        <ul className={styles.aboutItems}>
+          {/* Frontend Developer */}
+          <li className={styles.aboutItem}>
+            <img src={cursorImg} alt="Cursor Icon" />
+            <div className={styles.aboutItemText}>
+              <h3>Frontend Developer</h3>
+              <p>
+                I'm a front-end developer with experience in building responsive
+                and optimized sites.
+              </p>
+            </div>
           </li>
-          {/* Back-end developer */}
-          <li>
-          <img src={serverImg} alt="server Icon" />
-          <div>
-            <h3>Backend Developer</h3>
-            <p>I have experience developing fast and optimized sites</p>
-          </div>
+
+          {/* Backend Developer */}
+          <li className={styles.aboutItem}>
+            <img src={serverImg} alt="Server Icon" />
+            <div className={styles.aboutItemText}>
+              <h3>Backend Developer</h3>
+              <p>
+                I have experience developing fast and optimized back-end systems
+                and APIs.
+              </p>
+            </div>
           </li>
-          {/*Ui Designer*/ }
-          <li>
-          <img src={uiImg} alt="UI Icon" />
-          <div>
-            <h3>UI Designer</h3>
-            <p>I have designed multiple landing pages and have systems as well</p>
-          </div>
+
+          {/* UI Designer */}
+          <li className={styles.aboutItem}>
+            <img src={uiImg} alt="UI Icon" />
+            <div className={styles.aboutItemText}>
+              <h3>UI Designer</h3>
+              <p>
+                I have designed multiple landing pages and have created design
+                systems as well.
+              </p>
+            </div>
           </li>
         </ul>
       </div>
