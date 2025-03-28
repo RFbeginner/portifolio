@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from './hero.module.css'
+import heroImg from '../../assets/hero/heroImage.png';
+
 
 
 export const Hero = () => {
@@ -11,7 +13,7 @@ export const Hero = () => {
         </p>
         <a href="mailto:myemail@email.com" className={styles.contactBtn}>Contact Me</a>
     </div>
-    <img className={styles.heroImg} src="/src/assets/hero/heroImage.png" alt="hero image" />
+    <img className={styles.heroImg} src={heroImg} alt="hero Image" />
     <div className={styles.topBlur}/>
     <div className={styles.bottomBlur}/>
 
