@@ -2,13 +2,13 @@ import React from "react";
 
 import styles from "./ProjectCard.module.css";
 
-import project1Img from "../../assets/projects/project.png";
+import PortifolioImg from "../../assets/projects/Portifolio.png";
 import project2Img from "../../assets/projects/project.png";
 import project3Img from "../../assets/projects/project.png";
 // adicione outros imports conforme necessário
 
 const images = {
-  "projects/project.png": project1Img,
+  "projects/Portifolio.png": PortifolioImg,
   "projects/project2.png": project2Img,
   "projects/project3.png": project3Img,
   // adicione outras chaves conforme necessário
