@@ -8,7 +8,7 @@ import uiImg from '../../assets/about/uiIcon.png';
 const About = () => {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>About</h2>
+      <h2 className={styles.title}>Sobre mim</h2>
       <div className={styles.content}>
         <img
           className={styles.aboutImage}
@@ -20,10 +20,9 @@ const About = () => {
           <li className={styles.aboutItem}>
             <img src={cursorImg} alt="Cursor Icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3>Desenvolvedora Frontend</h3>
               <p>
-                I'm a front-end developer with experience in building responsive
-                and optimized sites.
+              Tenho experiência com desenvolvimento de interfaces utilizando ReactJS e VueJS, focando sempre em criar páginas responsivas, acessíveis e agradáveis de usar.
               </p>
             </div>
           </li>
@@ -32,10 +31,9 @@ const About = () => {
           <li className={styles.aboutItem}>
             <img src={serverImg} alt="Server Icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>Explorando o Backend</h3>
               <p>
-                I have experience developing fast and optimized back-end systems
-                and APIs.
+              Atualmente estudando Node.js e Go, estou ampliando meus conhecimentos para atuar também no desenvolvimento de APIs e sistemas de back-end.
               </p>
             </div>
           </li>
@@ -46,8 +44,7 @@ const About = () => {
             <div className={styles.aboutItemText}>
               <h3>UI Designer</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well.
+              Já criei landing pages e tenho familiaridade com design, prezando por consistência visual e boa experiência do usuário.
               </p>
             </div>
           </li>
