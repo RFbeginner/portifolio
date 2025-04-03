@@ -22,7 +22,7 @@ const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Desenvolvedora Frontend</h3>
               <p>
-              Tenho experiência com desenvolvimento de interfaces utilizando ReactJS e VueJS, focando sempre em criar páginas responsivas, acessíveis e agradáveis de usar.
+              Tenho experiência com desenvolvimento de interfaces utilizando ReactJS e VueJS, sempre focada em criar páginas acessíveis e agradáveis de usar.
               </p>
             </div>
           </li>
@@ -33,7 +33,7 @@ const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Explorando o Backend</h3>
               <p>
-              Atualmente estudando Node.js e Go, estou ampliando meus conhecimentos para atuar também no desenvolvimento de APIs e sistemas de back-end.
+              Atualmente estudando Node.js e Go, ampliando meus conhecimentos para atuar também no desenvolvimento de APIs e sistemas de back-end.
               </p>
             </div>
           </li>

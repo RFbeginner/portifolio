@@ -23,10 +23,14 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  
 }
 
+.aboutItemText{
+  flex-wrap:nowrap
+}
 .aboutImage {
-  width: 35%;
+  width: 40%;
 }
 
 .aboutItems {
@@ -35,6 +39,8 @@
   flex-direction: column;
   gap: 50px;
 }
+
+
 
 .aboutItem {
   display: flex;
