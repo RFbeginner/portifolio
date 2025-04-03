@@ -4,6 +4,7 @@ import styles from "./Contact.module.css";
 import emaiImg from "../../assets/contacts/emailIcon.png";
 import githubImg from "../../assets/contacts/linkedinIcon.png";   
 import linkedinImg from "../../assets/contacts/githubIcon.png";
+import whatsappImg from "../../assets/contacts/whatsappIcon.png"; 
 
 
 export const Contact = () => {
@@ -15,19 +16,28 @@ export const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={emaiImg} alt="Email icon" />
-          <a href="mailto:rebeca.ferreira.almeida.2007@gmail.com">E-mail</a>
+          <a href="mailto:rebeca.ferreira.almeida.2007@gmail.com">
+            <img src={emaiImg} alt="Email icon" />
+          </a>
+          <a href="mailto:rebeca.ferreira.almeida.2007@gmail.com"></a>
         </li>
         <li className={styles.link}>
-          <img
-            src={githubImg}
-            alt="LinkedIn icon"
-          />
-          <a href="https://www.linkedin.com/in/rebeca-ferreira-almeida/">Linkedin</a>
+          <a href="https://www.linkedin.com/in/rebeca-ferreira-almeida/">
+            <img src={githubImg} alt="LinkedIn icon" />
+          </a>
+          <a href="https://www.linkedin.com/in/rebeca-ferreira-almeida/"></a>
         </li>
         <li className={styles.link}>
-          <img src={linkedinImg} alt="Github icon" />
-          <a href="https://github.com/RFbeginner">Github</a>
+          <a href="https://github.com/RFbeginner">
+            <img src={linkedinImg} alt="Github icon" />
+          </a>
+          <a href="https://github.com/RFbeginner"></a>
+        </li>
+        <li className={styles.link}>
+          <a href="https://wa.me/5541992166799?text=Olá%20Rebeca%2C%20vim%20pelo%20seu%20portfólio!">
+            <img src={whatsappImg} alt="Whatsapp icon" />
+          </a>
+          <a href="https://wa.me/5541992166799?text=Olá%20Rebeca%2C%20vim%20pelo%20seu%20portfólio!"></a>
         </li>
       </ul>
     </footer>

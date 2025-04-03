@@ -2,9 +2,17 @@
   {
     "title": "Portifolio Pessoal",
     "imageSrc": "projects/Portifolio.png",
-    "description": "",
+    "description": "meu primeiro portifolio.",
     "skills": ["React", "CSS", "HTML"],
     "demo": "https://myportofilios2.netlify.app/",
     "source": "https://github.com/RFbeginner/portifolio"
+  },
+  {
+    "title": "Louis Vuitton",
+    "imageSrc": "projects/louis-vuitton.png",
+    "description": "Um clone de uma landing page da Louis Vuitton.",
+    "skills": ["CSS", "HTML"],
+    "demo": "https://louisvuittonlandingpagecopy.netlify.app/",
+    "source": "https://github.com/RFbeginner/louis-vuitton-html-css-"
   }
 ]
