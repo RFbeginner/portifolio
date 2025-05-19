@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./Contact.module.css";
-import emaiImg from "../../assets/contacts/emailIcon.png";
+import emailIcon from "../../assets/contacts/emailIcon.png";
 import githubImg from "../../assets/contacts/linkedinIcon.png";   
 import linkedinImg from "../../assets/contacts/githubIcon.png";
 import whatsappImg from "../../assets/contacts/whatsappIcon.png"; 
@@ -16,10 +16,14 @@ export const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <a href="mailto:rebeca.ferreira.almeida.2007@gmail.com">
-            <img src={emaiImg} alt="Email icon" />
-          </a>
-          <a href="mailto:rebeca.ferreira.almeida.2007@gmail.com"></a>
+          <a
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=rebeca.ferreira.almeida.2007@gmail.com"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src={emailIcon} alt="Email icon" />
+    </a>
+          
         </li>
         <li className={styles.link}>
           <a href="https://www.linkedin.com/in/rebeca-ferreira-almeida/">
