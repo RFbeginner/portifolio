@@ -8,14 +8,6 @@
     "source": "https://github.com/RFbeginner/portifolio"
   },
   {
-    "title": "Louis Vuitton",
-    "imageSrc": "projects/louis-vuitton.png",
-    "description": "Clone de landing page, Louis Vuitton",
-    "skills": ["CSS", "HTML"],
-    "demo": "https://louisvuittonlandingpagecopy.netlify.app/",
-    "source": "https://github.com/RFbeginner/louis-vuitton-html-css-"
-  },
-  {
     "title": "Generador de RPA",
     "imageSrc": "projects/rpa.png",
     "description": "Gerador de RPA em PDF",
