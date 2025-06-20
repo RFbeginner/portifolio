@@ -2,7 +2,7 @@
   {
     "title": "Portifolio Pessoal",
     "imageSrc": "projects/Portifolio.png",
-    "description": "meu primeiro portifolio.",
+    "description": "meu primeiro portifolio",
     "skills": ["React", "CSS", "HTML"],
     "demo": "https://myportofilios2.netlify.app/",
     "source": "https://github.com/RFbeginner/portifolio"
@@ -10,9 +10,17 @@
   {
     "title": "Louis Vuitton",
     "imageSrc": "projects/louis-vuitton.png",
-    "description": "Um clone de uma landing page da Louis Vuitton.",
+    "description": "Clone de landing page, Louis Vuitton",
     "skills": ["CSS", "HTML"],
     "demo": "https://louisvuittonlandingpagecopy.netlify.app/",
     "source": "https://github.com/RFbeginner/louis-vuitton-html-css-"
+  },
+  {
+    "title": "Generador de RPA",
+    "imageSrc": "projects/rpa.png",
+    "description": "Gerador de RPA em PDF",
+    "skills": ["Python", "HTML", "CSS"],
+    "demo": "https://rpa-r6ed.onrender.com/",
+    "source": "https://github.com/RFbeginner/RPA"
   }
 ]

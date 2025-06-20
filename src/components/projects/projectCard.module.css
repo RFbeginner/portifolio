@@ -36,11 +36,11 @@
 }
 
 .skill {
-  font-size: 25px;
+  font-size: 24px;
   font-weight: 400;
   border-radius: 100px;
   background: var(--color-dark);
-  padding: 2px 22px;
+  padding: 1px 20px;
 }
 
 .links {
