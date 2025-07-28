@@ -12,7 +12,7 @@ export const Hero = () => {
         <p className={styles.description}>Sou desenvolvedora frontend em início de carreira, com experiência em ReactJS e VueJS. No momento, estou nos estudos de Go e NodeJS para também atuar no backend. Curto desafios e estou construindo meu caminho para me tornar uma dev fullstack.
         </p>
         <a
-    href="https://mail.google.com/mail/?view=cm&fs=1&to=rebeca.ferreira.almeida.2007@gmail.com"
+    href="https://wa.me/5541992166799?text=Olá%20Rebeca%2C%20vim%20pelo%20seu%20portfólio!"
     target="_blank"
     rel="noopener noreferrer"
     className={styles.contactBtn}> Vamos conversar !
