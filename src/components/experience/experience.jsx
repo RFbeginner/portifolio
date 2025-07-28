@@ -11,6 +11,7 @@ import nodeImg from "../../assets/skills/node.png";
 import vueImg from "../../assets/skills/vue.png";
 import golangImg from "../../assets/skills/golang.png";
 import figmaImg from "../../assets/skills/figma.png";
+import pythonImg from "../../assets/skills/python.png";
 
 import timberImg from "../../assets/history/timber.png";
 import microsoftImg from "../../assets/history/microsoft.png";
@@ -25,6 +26,7 @@ const imageMap = {
   "skills/vue.png": vueImg,
   "skills/golang.png": golangImg,
   "skills/figma.png": figmaImg,
+  "skills/python.png": pythonImg,
   "history/timber.png": timberImg,
   "history/microsoft.png": microsoftImg,
   "history/netflix.png": netflixImg,
